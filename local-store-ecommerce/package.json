@@ -1,0 +1,12 @@
+{
+  "name": "local-store-ecommerce",
+  "version": "1.0.0",
+  "description": "Local Store E-commerce Platform - Task 03",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "build": "npm run build --prefix frontend"
+  }
+}
